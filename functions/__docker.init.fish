@@ -21,6 +21,7 @@ function __docker.init
 
   __docker.create_abbr dcb        docker compose build
   __docker.create_abbr dcd        docker compose down
+  __docker.create_abbr dcr        docker compose restart
   __docker.create_abbr dcu        docker compose up -d
   __docker.create_abbr deti       docker exec -ti
   __docker.create_abbr dlf        docker logs --follow --tail 200

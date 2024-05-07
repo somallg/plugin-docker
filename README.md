@@ -31,11 +31,12 @@ dlf nginx        # follow nginx logs
 ## Usage
 
 | Abbreviation | Command                                                     |
-| ------------ | --------------------------------------------------------    |
+| ------------ | ----------------------------------------------------------- |
 | d            | `docker`                                                    |
 | dc           | `docker compose`                                            |
 | dcb          | `docker compose build`                                      |
 | dcd          | `docker compose down`                                       |
+| dcr          | `docker compose restart`                                    |
 | dcu          | `docker compose up -d`                                      |
 | deti         | `docker exec -ti`                                           |
 | dlf          | `docker logs --follow --tail 200`                           |
